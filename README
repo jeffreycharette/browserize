@@ -1,8 +1,7 @@
---The ScreenSharing example extension--
+Browserize example extension
+=======
 
-This directory contains the source for an example Chrome Extension called ScreenSharing is a simple variant of the PageMirror extension.
-
-The basic behavior is almost exactly identical, except for popping up a new tab in the same browser, the extension forwards changes to a NodeJS server.js which can relay those changes to any number of clients
+Chrome Extension that forwards changes to a NodeJS server.js which can relay those changes to any number of clients
 
 --Requirements--
 
@@ -10,8 +9,7 @@ This example requires NodeJS to run the relay server. See http://nodejs.org for 
 
 --Installation--
 
-1. Copy ../../mutation_summary.js and ../../tree_mirror.js to this directory.
-2. Edit the serverURL variable in content.js to point to the machine on which you plan to run server.js. E.g. 'ws://mymachine:8080/projector'.
+1. Edit the serverURL variable in content.js to point to the machine on which you plan to run server.js. E.g. 'ws://mymachine:8080/projector'.
 2. Navigate Chrome to chrome://extensions.
 3. Click the 'Developer Mode' checkbox.
 4. Click the 'Load unpacked extension...' button.
